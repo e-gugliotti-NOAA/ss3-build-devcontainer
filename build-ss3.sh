@@ -14,4 +14,5 @@ cd /usr/local/bin/stock-synthesis-main
 sudo make
 mv /usr/local/bin/stock-synthesis-main/ss /workspaces/github-actions-test/ss
 
-echo 'options(repos = c(CRAN = \"https://cloud.r-project.org\"))' | sudo sh -c 'cat - >>\"${R_HOME}/etc/Rprofile.site\"'
+echo 'options(repos = c(CRAN = \"https://cloud.r-project.org\"))'
+sudo sh -c 'cat - >>\"${R_HOME}/etc/Rprofile.site\"'
