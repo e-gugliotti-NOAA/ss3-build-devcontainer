@@ -3,7 +3,7 @@ wget https://github.com/admb-project/admb/releases/download/admb-13.1/admb-13.1-
 sudo unzip admb-13.1-linux.zip -d /usr/local/bin
 sudo rm admb-13.1-linux.zip
 sudo chmod 755 /usr/local/bin/admb-13.1/bin/admb
-export PATH=$PATH://usr/local/bin/admb-13.1/bin
+export PATH=$PATH:/usr/local/bin/admb-13.1/bin
 
 cd /workspaces/ss3-build-devcontainer
 wget https://github.com/nmfs-stock-synthesis/stock-synthesis/archive/main.zip
